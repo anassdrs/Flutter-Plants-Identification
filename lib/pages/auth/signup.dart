@@ -261,7 +261,7 @@ class _SignUpPageState extends State<SignUpPage> {
         children: <Widget>[
           Form(
             key: _formKey,
-            autovalidate: _autoValidate,
+            // autovalidate: _autoValidate,
             child: Container(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: Column(
